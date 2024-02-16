@@ -7,6 +7,7 @@ My dotfiles for Hyprland
 ![](https://github.com/LegitSt0ne/dotfiles-hyprland/blob/main/example2.png?raw=true)
 ![](https://github.com/LegitSt0ne/dotfiles-hyprland/blob/main/example3.png?raw=true)
 ![](https://github.com/LegitSt0ne/dotfiles-hyprland/blob/main/example4.png?raw=true)
+![](https://github.com/LegitSt0ne/dotfiles-hyprland/blob/main/example5.png?raw=true)
 
 ## Programs
 On screenshots:
