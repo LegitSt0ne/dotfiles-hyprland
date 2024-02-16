@@ -20,3 +20,14 @@ On screenshots:
 - wofi (app launcher)
 - wlogout (shutdown options menu)
 - oh-my-posh (this shell thing)
+
+## Installation  
+To install, clone this repository and copy all folders inside it into ~/.config:
+`git clone https://github.com/LegitSt0ne/dotfiles-hyprland.git`
+`cp dotfiles-hyprland ~/.config`
+If you dont have Git, install it with your package manager or download and install it from Git's website.
+To set up oh-my-posh, you need to find what shell are you using:
+`oh-my-posh get shell`
+And, following [this instructions](https://ohmyposh.dev/docs/installation/prompt), find what file should you edit depending on your shell, but instead of `eval "$(oh-my-posh init yourshell)"`, you should add this:
+`eval "$(oh-my-posh init yourshell --config ~/.config/omp/config.json`,
+where *yourshell* is shell that you are using.
