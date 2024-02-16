@@ -19,3 +19,4 @@ On screenshots:
 - waybar (status bar)
 - wofi (app launcher)
 - wlogout (shutdown options menu)
+- oh-my-posh (this shell thing)
