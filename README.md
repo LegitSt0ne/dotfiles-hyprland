@@ -10,7 +10,7 @@ My dotfiles for Hyprland
 ## Programs
 On screenshots:
 - ufetch (fetch in top-left terminal)
-- pipes.sh (thing that look like 3d pipes screensaver from windows in bottom-left terminal)
+- pipes.sh (thing that looks like 3d pipes screensaver from windows in bottom-left terminal)
 - neovim (text editor in right terminal)
 - foot (the terminal itself)
 - swaync (notifications)
