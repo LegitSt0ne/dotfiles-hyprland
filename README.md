@@ -31,3 +31,8 @@ To set up oh-my-posh, you need to find what shell are you using:
 And, following [this instructions](https://ohmyposh.dev/docs/installation/prompt), find what file should you edit depending on your shell, but instead of `eval "$(oh-my-posh init yourshell)"`, you should add this:
 `eval "$(oh-my-posh init yourshell --config ~/.config/omp/config.json`,
 where *yourshell* is shell that you are using.
+
+## Binds
+`Ctrl+Alt+T` - opens terminal
+`Super+R` - opens app launcher
+You can see another binds in `hyprland.conf` file inside `~/.config/hypr` directory
