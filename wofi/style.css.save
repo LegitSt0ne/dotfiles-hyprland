@@ -1,0 +1,13 @@
+#outer-box {
+    background-color: rgb(42,52,54);
+}
+
+#input {
+    background-color: rgb(42,52,54);
+}
+
+#input
+
+#text {
+    color: #ffffff;
+}
