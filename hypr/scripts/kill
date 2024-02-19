@@ -1,0 +1,5 @@
+if [[ "$(hyprctl activewindow)" = "Invalid" ]]; then
+	wlogout
+else
+	hyprctl dispatch killactive ""
+fi
