@@ -17,7 +17,7 @@ On screenshots:
 - foot (the terminal itself)
 - swaync (notifications)
 - waybar (status bar)
-- wofi (app launcher)
+- rofi (app launcher)
 - wlogout (shutdown options menu)
 - oh-my-posh (this shell thing)
 
