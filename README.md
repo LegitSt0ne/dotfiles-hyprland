@@ -22,8 +22,7 @@ On screenshots:
 - oh-my-posh (this shell thing)
 
 ## Installation  
-
-`git clone https://github.com/LegitSt0ne/dotfiles-hyprland && cd dotfiles-hyprland && ./install.sh`
+`git clone https://github.com/LegitSt0ne/dotfiles-hyprland && cd dotfiles-hyprland && chmod a+x install.sh && ./install.sh`
 
 ## Binds
 `Ctrl+Alt+T` - opens terminal  
