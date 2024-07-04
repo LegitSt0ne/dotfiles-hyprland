@@ -1,13 +1,13 @@
 {
     "layer": "top", // Waybar at top layer
     // "position": "bottom", // Waybar position (top|bottom|left|right)
-    "height": 34, // Waybar height (to be removed for auto height)
+    "height": 35, // Waybar height (to be removed for auto height)
     // "width": 1280, // Waybar width
     "spacing": 4, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": ["hyprland/workspaces"],
     "modules-center": ["hyprland/window"],
-    "modules-right": ["tray", "custom/notification", "clock", "battery", "custom/shutdown"],
+    "modules-right": ["tray", "custom/notification", "hyprland/language", "clock", "battery", "custom/shutdown"],
 
     "hyprland/workspaces": {
 	"format": "{name}",
@@ -17,7 +17,12 @@
     },
     "hyprland/window": {
         "format": "{}",
-        "separate-outputs": true
+        "separate-outputs": true,
+	"rewrite": {
+       	    "(.*) GitHub — Mozilla Firefox": "Github - Firefox",
+	    "(.*) osu! — Mozilla Firefox": "osu! - Firefox",
+	    "(.*) YouTube — Mozilla Firefox": "YouTube - Firefox"
+        },
     },
     "clock": {
         "interval": 60,
@@ -26,9 +31,8 @@
         "tooltip-format": "{:%d-%m-%y}",
     },
     "custom/shutdown": {
-	"tooltip-format": "You'll probably need rest after all this hours of editing configs",
 	"format": "",
-	"on-click": "wlogout"
+	"on-click": "~/.config/hypr/scripts/wlogout"
     },
     "custom/notification": {
         "tooltip-format": "{} notifications",
@@ -62,6 +66,10 @@
         },
     "format": "{capacity}%",
     "max-length": 25
+    },
+    "hyprland/language": {
+    	"format-ru": "RU",
+	"format-en": "EN"
     }
 
 }

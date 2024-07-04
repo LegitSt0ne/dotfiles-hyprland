@@ -1,7 +1,6 @@
 configuration {
   font: "JetBrainsMonoNerdFontMono 12";
-  modes: [ combi ];
-  combi-modes: [ window, drun, run ];
+  modes: [ drun ];
 }
 @theme "gruvbox-dark-soft"
 /**
